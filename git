@@ -29,4 +29,6 @@
 
     git diff --cached  比较工作区与历史区
 
-    git checkout
+    git checkout .或abc 用暂存区内容覆盖工作区，可以是某一个文件，也可以是所有
+
+    git reset HEAD 暂存区向前回滚一个版本
