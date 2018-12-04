@@ -7,6 +7,8 @@
 
      ls -al 显示所有文件包括隐藏文件
 
+     echo abc >> abc.txt 在abc.txt中追加abc文本内容，，一个箭头表示输入，两个表示追加没有该文件会自动创建
+
      pwd  打印当前所在目录
 
      touch abc.txt 创建abc文件
