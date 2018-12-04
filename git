@@ -42,9 +42,13 @@
 
     git branch 查看分支
 
+    git branch -a 查看远程和本地的所有分支，远程为红色标记
+
     git branch dev 创建 dev 分支
 
     git branch -D dev 删除dev分支
+
+    git push origin --delete dev 本地操作删除远程仓库的dev分支
 
     git checkout dev 切换到dev分支上
 
@@ -58,4 +62,13 @@
     =======
     abc
     >>>>>>> dev
+
+推送到gitHub远程仓库
+
+    git remote add name(一般都叫origin) 远程仓库地址
+    git remote rm name  移除关联本地仓库与远程仓库的关联
+    git remote -v 查看与本地仓库关联的远程仓库都有那些
+
+    git push origin master 将本地的master分支推送到远程仓库 第一次提交本地master分支到远程仓库需要 git push -u origin master
+    git pull origin master 将远程仓库的master分支拉下来同步到本地master分支
 
