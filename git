@@ -29,4 +29,4 @@
 
     git diff --cached  比较工作区与历史区
 
-    git checkout 
+    git checkout
