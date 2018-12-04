@@ -1,0 +1,32 @@
+
+## 全局目录下查看git配置信息
+    git config --list
+
+    全局配置git用户名（git）
+
+    git config --global user.name gaopeng
+    git config --global user.email 1916518349@qq.com
+
+## 对应的开发目录下 git初始化
+
+    git init 初始化所在文件夹，被git管理，每个项目初始化依次，不能嵌套git初始化项目
+
+    删除  .git文件夹就可以取消gie对项目的管理
+
+## 工作区， 暂存区 ，历史区 ，远程仓库的相互提交
+
+    git status 查看提交状态
+
+    git add abc.txt 或 . 或 -A 将 abc 或 所有文件提交到暂存区
+
+    git commit -m"提交信息" 将暂存区内容提交到历史区,同时生成版本号
+
+    git log 查看提交日志，其中包含版本号,提交人信息，提交时间以及提交备注信息
+
+    git diff  diff后面什么都不写，默认比较工作区与暂存区
+
+    git diff master 比较工作区与历史区
+
+    git diff --cached  比较工作区与历史区
+
+    git checkout 
