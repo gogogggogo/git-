@@ -33,9 +33,20 @@
 
     git checkout .或abc 用暂存区内容覆盖工作区，可以是某一个文件，也可以是所有
 
-    git reset HEAD 暂存区向前回滚一下，注意只有历史区才有版本号
+    git reset HEAD .或 abc 暂存区向前回滚一下，注意只有历史区才有版本号
 
     git reset --hard 版本号号 将工作区，暂存区内容回滚到对应版本内容，并且回滚版本之后的版本信息不再显示
 
     git reset --hard HEAD^ 历史区向前回滚一个版本，并覆盖工作区内容
+
+
+    git branch 查看分支
+
+    git branch dev 创建 dev 分支
+
+    git branch -D dev 删除dev分支
+
+    git checkout dev 切换到dev分支上
+
+    git merge dev 将dev合并到所在分支上  
 
